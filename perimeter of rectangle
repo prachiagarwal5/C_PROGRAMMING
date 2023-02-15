@@ -1,0 +1,12 @@
+//to find perimeter of rectangle
+#include <stdio.h>
+void main(){
+    int a,b,peri;
+    printf("a=");
+    scanf("%d",&a);
+    printf("b=");
+    scanf("%d",&b);
+    peri=2*(a+b);
+    printf("perimeter of the rectangle=%d",peri);
+    
+}
