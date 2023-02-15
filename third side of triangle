@@ -1,0 +1,13 @@
+//to find third side of triangle
+#include <stdio.h>
+#include <math.h>
+void main(){
+    int a,b,c,d;
+    printf("enter the first side=");
+    scanf("%d",&a);
+    printf("enter the second side=");
+    scanf("%d",&b);
+    c=a*a+b*b;
+    d=sqrt(c);
+    printf("third side=%d",d);
+}
