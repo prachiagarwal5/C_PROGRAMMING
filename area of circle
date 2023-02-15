@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+void main(){
+    int r,d;
+    float c,a;
+    printf("r=");
+    scanf("%d",&r);
+    d=r*2;
+    printf("diameter of circle=%d",d);
+    c=2*3.14*r;
+    printf("\ncircumference of circle=%f",c);
+    a=3.14*r*r;
+    printf("\narea of circle=%f",a);
+}
