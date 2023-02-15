@@ -1,0 +1,12 @@
+   //to covert length in meter and kilometer
+#include <stdio.h>
+void main(){
+    int a;
+    float m,k;
+    printf("length in centimeter=");
+    scanf("%d",&a);
+    m=a/100;
+    printf("length in meter=%f",m);
+    k=a/1000;
+    printf("\nlength in kilometer=%f",k);
+}
