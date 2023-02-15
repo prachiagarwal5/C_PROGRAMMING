@@ -1,0 +1,12 @@
+//to calculate area of equilateral triangle
+#include <stdio.h>
+void main(){
+    int a,b,area;
+    printf("enter the side=");
+    scanf("%d",&a);
+    b=a*a;
+    area=(1.732*b)/4
+    
+    printf("area%d",area);
+}
+    
