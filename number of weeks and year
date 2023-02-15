@@ -1,0 +1,13 @@
+//to find number of weeks and year
+#include <stdio.h>
+void main(){
+    int d;
+    float y,w;
+    printf("number of days=");
+    scanf("%d",&d);
+    y=d/365;
+    printf("number of years=%f",y);
+    w=d/7;
+    printf("\nnumber of weeks=%f",w);
+}
+    
