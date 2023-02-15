@@ -1,0 +1,11 @@
+//to find the sum of two number
+#include <stdio.h>
+void main(){
+    int a,b,sum;
+    printf("a=");
+    scanf("%d",&a);
+    printf("b=");
+    scanf("%d",&b);
+    sum=a+b;
+    printf("sum of the two number=%d",sum);
+}
